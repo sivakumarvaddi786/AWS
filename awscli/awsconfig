@@ -1,0 +1,23 @@
+export AWS_ACCESS_KEY_ID=<your-key-here>
+export AWS_SECRET_ACCESS_KEY=<your-secret-key-here>
+
+
+
+~/.aws/credentials
+
+$ aws configure
+AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Default region name [None]: us-west-2
+Default output format [None]: ENTER
+
+
+[profileName1]
+aws_access_key_id=***************
+aws_secret_access_key=***************
+
+[profileName2]
+aws_access_key_id=***************
+aws_secret_access_key=***************
+
+export AWS_PROFILE="profileName2"
